@@ -1,6 +1,14 @@
 module jiaa-server-core
 
-go 1.24
+go 1.25
+
+require (
+	github.com/confluentinc/confluent-kafka-go v1.9.2
+	github.com/golang-jwt/jwt/v5 v5.3.0
+	github.com/labstack/echo/v4 v4.15.0
+	google.golang.org/grpc v1.78.0
+	google.golang.org/protobuf v1.36.11
+)
 
 require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2 // indirect
